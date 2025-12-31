@@ -22,7 +22,7 @@ Emitting an SSE is simpler than it sounds. You don't need a special protocol lik
 
 #### The Headers
 
-To turn a standard HTTP request into an SSE stream, you must send these three headers:
+To turn a standard HTTP request into an SSE stream, you must send these headers:
 
 - `Content-Type: text/event-stream` (Tells the browser this is a stream, not a standard page).
 
